@@ -1,18 +1,24 @@
 @import url(<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">);
 
-*,
-*::before,
-*::after{
-    font-family: Outfit, sans-serif;
-    background-color: var(--color-two);
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;    
 }
 body {
+    font-family: Outfit, sans-serif;
+    background-color: var(--color-two);
+    margin: 100px;
+}
+#main-card {
     background-color: var(--color-one);
+    width: 1000px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
 }
 :root {
    --color-one: hsl(0, 0%, 100%);
@@ -28,4 +34,48 @@ body {
 img {
     display: block;
     max-width: 100%;
+    border-radius: 15px;
+}
+footer {
+    text-align: center;
+    margin: 20px;
+}
+.item p {
+    display: inline-block;
+}
+.flavor {
+    text-align: left;
+    width: 50%;
+  }
+  
+.call {
+    text-align: right;
+    width: 50%;
+  }
+h1 {
+    font-family: Young-Serif;
+    font-size: 50px;
+    margin: 25px 0;
+}
+h2 {
+    font-family: Young-Serif;
+    font-size: 36px;
+    margin: 25px 0;
+    color: var(--color-six)
+}
+h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.preparation {
+    background-color: var(--color-eight);
+    border-radius: 15px;
+    padding: 0 40px;
+}
+.preparation ul {
+    margin-left: 5px;
+}
+section h3 {
+    padding-top: 20px;
+    margin-left: -15px;
 }

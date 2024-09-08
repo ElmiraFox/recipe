@@ -1,19 +1,18 @@
 @import url(<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">);
 @import url(<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">);
 
-*{
+*,
+*::before,
+*::after{
+    font-family: Outfit, sans-serif;
     background-color: var(--color-two);
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;    
 }
 body {
-    font-family: Outfit, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    max-width: 1440px;
-}
-h1, h2 {
-    font-family: Young-Serif, sans-sefir;
+    background-color: var(--color-one);
 }
 :root {
    --color-one: hsl(0, 0%, 100%);
@@ -24,7 +23,9 @@ h1, h2 {
    --color-six: hsl(14, 45%, 36%);
    --color-seven: hsl(332, 51%, 32%);
    --color-eight: hsl(330, 100%, 98%);
+   scroll-behavior: smooth;
 }
-.recipe {
-    background-color: var(--color-one);
+img {
+    display: block;
+    max-width: 100%;
 }

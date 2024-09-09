@@ -76,6 +76,10 @@ li {
     display: flex;
     align-items: center;
 }
+b {
+    color: var(--color-six);
+    margin-right: 20px;
+}
 .description {
     margin: 35px 0 45px 0;
 }

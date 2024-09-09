@@ -67,10 +67,21 @@ h3 {
     font-size: 24px;
     margin: 0 0 20px 0;
 }
+.description {
+    margin: 35px 0 45px 0;
+}
 .preparation {
     background-color: var(--color-eight);
     border-radius: 15px;
     padding: 0 40px 25px;
+}
+.ingredients {
+    border-radius: 15px;
+    padding: 20px;
+}
+.instructions {
+    border-radius: 15px;
+    padding: 20px;
 }
 .preparation ul {
     margin-left: 5px;
@@ -78,4 +89,7 @@ h3 {
 section h3 {
     padding-top: 20px;
     margin-left: -15px;
+}
+section h2 {
+    margin-left: -20px;
 }

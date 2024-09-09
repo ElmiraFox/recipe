@@ -67,29 +67,58 @@ h3 {
     font-size: 24px;
     margin: 0 0 20px 0;
 }
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+}
 .description {
     margin: 35px 0 45px 0;
 }
 .preparation {
     background-color: var(--color-eight);
     border-radius: 15px;
-    padding: 0 40px 25px;
+    padding: 0 15px 25px;
+}
+.point-preparation {
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-seven);
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.point-ingredients {
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-six);
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.number {
+    color: var(--color-six);
+    font-weight: 700;
+    margin-right: 25px;
 }
 .ingredients {
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 0;
+}
+.article-ingredients {
+    padding: 0;
+    margin: 0;
 }
 .instructions {
     border-radius: 15px;
-    padding: 20px;
 }
 .preparation ul {
-    margin-left: 5px;
+    margin-left: 15px;
 }
 section h3 {
+    color: var(--color-seven);
     padding-top: 20px;
-    margin-left: -15px;
-}
-section h2 {
-    margin-left: -20px;
+    margin-left: 5px;
 }

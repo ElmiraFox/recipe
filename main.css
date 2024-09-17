@@ -167,7 +167,6 @@ hr {
     padding-left: 40px;
 }
 .nutritions hr {
-    width: 86%;
     margin: auto;
     opacity: 0.5;
     margin-bottom: -10px;
@@ -192,6 +191,12 @@ hr {
 }
 /*footer finish*/
 
+@media (min-width: 768px) {
+    hr {
+        width: 90%;
+    }
+}
+
 @media (min-width: 992px) {
     body {
         background-color: var(--color-two);
@@ -199,13 +204,13 @@ hr {
     }
     main {
         background-color: var(--color-one);
-        border-radius: 30px;
+        border-radius: 20px;
         width: 42%;
         margin: 100px auto;
         padding: 40px;
     }
     img {
-        border-radius: 20px;
+        border-radius: 18px;
     }
     h1 {
         margin: 25px 0;
@@ -233,8 +238,5 @@ hr {
     }
     .nutritions-description {
         margin: 25px;
-    }
-    hr {
-        width: 90%;
     }
 }

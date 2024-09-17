@@ -123,8 +123,12 @@ hr {
 /*ingredients finish*/
 
 /*instructions start*/
+
 .instructions {
     font-family: var(--font-Outfit);
+}
+.instructions h2 {
+    margin-bottom: 20px;
 }
 .instructions ol {
     margin: 0 25px;
@@ -143,16 +147,22 @@ hr {
 .instructions li {
     margin-bottom: 7px;
 }
+.wrapper-instructions {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    justify-content: center;
+    margin: 15px 25px;
+}
 /*instructions finish*/
 
 /*nutrition start*/
-.wrapper {
+.wrapper-nutritions {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin: 25px;
 }
-.wrapper p {
+.wrapper-nutritions p {
     margin: 0;
     padding-left: 40px;
 }

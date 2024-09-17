@@ -182,9 +182,6 @@ hr {
 }
 /*footer finish*/
 
-@media (min-width: 768px) {
-   
-}
 @media (min-width: 992px) {
     body {
         background-color: var(--color-two);

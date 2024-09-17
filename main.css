@@ -181,3 +181,53 @@ hr {
     margin: 0;
 }
 /*footer finish*/
+
+@media (min-width: 768px) {
+   
+}
+@media (min-width: 992px) {
+    body {
+        background-color: var(--color-two);
+        line-height: 27px;
+    }
+    main {
+        background-color: var(--color-one);
+        border-radius: 30px;
+        width: 42%;
+        margin: 100px auto;
+        padding: 40px;
+    }
+    img {
+        border-radius: 20px;
+    }
+    h1 {
+        margin: 25px 0;
+    }
+    p {
+        margin: 25px 0;
+    }
+    hr {
+        width: 90%;
+    }
+    .preparation {
+        background-color: var(--color-eight);
+        margin: 20px 0;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    .ingredients{
+        margin: 25px -25px;
+    }
+    .instructions {
+        margin: 25px -25px;
+    }
+    .nutritions {
+        margin: 25px -25px;
+    }
+    .nutritions-description {
+        margin: 25px;
+    }
+    hr {
+        width: 90%;
+    }
+}
